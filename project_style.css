@@ -1,0 +1,46 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+
+.container{
+    background-color: rgb(195, 228, 217);
+    height: 100vh;
+    width:100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height:70vh;
+    width:400px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.blue_card{
+    margin-top: 20px;
+    margin-left: 25px;
+    height:65%;
+    width: 350px;
+    background-color: rgb(51, 105, 255);
+    border-radius: 20px;
+
+}
+
+.qr_code{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.text{
+    margin-top:60px;
+}

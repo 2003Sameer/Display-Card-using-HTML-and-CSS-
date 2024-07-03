@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Project 3</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        .container{
+            width: 100vw;
+            height: 100vh;
+            background-color: rgb(0, 26, 104);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .card{
+            width: 50%;
+            height: 60%;
+            background-color: rgb(73, 6, 109);
+            display: flex;
+        }
+        .card img{
+            width:50%;
+            height: 100%;
+        }
+        .heading{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap:40px;
+            padding:40px;
+            color:white;
+        }
+
+        .foot{
+            display: flex;
+            justify-content: space-between;
+            gap:50px;
+        }
+        .para{
+
+            display: flex;
+            justify-content: space-between;
+            gap: 60px;
+        }
+
+        .reach{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="heading">
+                <h1>Get Insights that help your buisness grow</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita inventore tempora provident incidunt voluptatibus itaque deleniti impedit pariatur aut vero?</p>
+                
+                <div class="reach">
+                    <div class="foot">
+                        <h1>10K+</h1>
+                        <h1>214</h1>
+                        <h1>12M+</h1>
+                    </div>
+                    <div class="para">
+                        <p>Comments</p>
+                        <p>Paid Users</p>
+                        <p>Views</p>
+                    </div>
+                </div>
+                
+            </div>
+            <img src="img.jpeg" alt="image">
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0px;
+            padding:0px;
+        }
+        .container{
+            height:100vh;
+            width:100vw;
+            background-color:rgb(180, 245, 237);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+        .card{
+            height:480px;
+            width:300px;
+            background-color: white;
+            border-radius: 20px;
+            box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.587);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap:20px;
+        }
+        .card img{
+            width: 300px;
+            height:150px;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+        .text{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap:10px;
+        }
+        
+        .music_box{
+            height: 50%;
+            width: 80%;
+            background-color: rgb(180, 244, 223);
+            border-radius: 10px;
+
+            display: flex;
+            justify-content:space-between;
+        }
+
+        #logo{
+            display: flex;
+            justify-content: flex-start;
+        }
+        #logo img{
+            margin-top: 2px;
+            margin-left: 5px ;
+            height: 40px;
+            width: 40px;
+            border-radius: 50px;
+        }
+        #plans{
+            display: flex;
+            flex-direction: column;
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+
+        .music_box a{
+            margin-top: 14px;
+            margin-right: 8px;
+        }
+        .pay_box{
+            height: 50%;
+            width:80%;
+            background-color: darkblue;
+            box-shadow: 1px 1px 10px black;
+            border-radius: 12px;
+
+        }
+        .pay_box p{
+            color:white;
+            text-align: center;
+        }
+
+        a{
+            text-decoration: none;
+            font-weight: 100;
+        }
+
+        #cancel{
+            color: rgb(255, 0, 0);
+            font-weight: bold;
+            margin-bottom: 25px;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <img src="img.jpeg" alt="image">
+            <div class="text">
+                <h2>Order Summary</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores doloremque neque eveniet cupiditate repudiandae voluptatum, voluptas autem possimus!</p>
+            </div>
+            <div class="music_box">
+                <div id="logo">
+                    <img src="music_icon.png" alt="icon">
+                    <div id="plans">
+                        <p>Annual Plan</p>
+                        <p>$99.9/year</p>
+                    </div> 
+                </div>
+                <a href="#"><b>Change</b></a>
+            </div>
+            <button class="pay_box">
+                <p>Proceed to payment</p>
+            </button>
+            <a href="#" id="cancel">Cancel Order</a>
+        </div>
+    </div>
+    
+</body>
+</html>
